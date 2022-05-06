@@ -1,4 +1,4 @@
-// USAR O FILTER para identificar empresas que foram fundadas após 1975 e que tenham mais de 2 milhões de doláres de valor de mercado
+// USAR O FILTER para identificar empresas que foram fundadas após 1975 e que tenham mais de 200 milhões de doláres de valor de mercado
 
 const companies = [
     { name: 'Samsung', marketValue: 50, CEO: 'Kim Hyun Suk', foundedOn: 1938 },
@@ -14,7 +14,7 @@ const companies = [
 //     return company
 // })
 
-const filterCompanies = companies.filter( company  => company.marketValue > 2 && company.foundedOn >= 1975 )
+const filterCompanies = companies.filter( company  => company.marketValue > 200 && company.foundedOn >= 1975 )
 
 
 
